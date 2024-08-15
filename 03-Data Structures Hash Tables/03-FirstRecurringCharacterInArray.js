@@ -1,7 +1,6 @@
 //First Recurring Character In Array
 
 
-
 function firstRecurringCharacter(input){
 
     for(let i = 0; i < input.length; i++){
@@ -17,7 +16,6 @@ function firstRecurringCharacter(input){
 }   //O(n^2)
 
 
-
 array = [2,5,1,2,3,5,1,2,4]
 
 console.log(firstRecurringCharacter(array));
@@ -31,7 +29,7 @@ function firstRecurringCharacter2(input){
     for(let i=0; i < input.length; i++){
         //if the key already exist, return the key.. done
         if(map[input[i]]){
-            console.log(map);
+            //console.log(map);
             return input[i];
             
         }else{
@@ -40,6 +38,7 @@ function firstRecurringCharacter2(input){
         }
 
     }
+    return undefined;
 }
 
 console.log(firstRecurringCharacter2(array));
