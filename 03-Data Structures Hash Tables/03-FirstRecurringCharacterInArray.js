@@ -24,7 +24,7 @@ console.log(firstRecurringCharacter(array));
 //Using Map
 function firstRecurringCharacter2(input){
     //create a map to use as a comparison
-    let map = {};
+    let map = {};   //O(n)
 
     for(let i=0; i < input.length; i++){
         //if the key already exist, return the key.. done
@@ -39,6 +39,6 @@ function firstRecurringCharacter2(input){
 
     }
     return undefined;
-}
+}   //O(n)
 
 console.log(firstRecurringCharacter2(array));
