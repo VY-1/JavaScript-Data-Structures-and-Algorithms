@@ -110,6 +110,8 @@ class DoublyLinkedList{
 
         return array;
     }
+
+    
 }
 
 const myLinkedList = new DoublyLinkedList(10);
